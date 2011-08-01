@@ -1,0 +1,32 @@
+/*************************************************
+ * SexxMail
+ *************************************************/
+
+  what the heck? sexxymail is something that's more like joke turned serious!
+  I had this idea i joked about - imagine waking up in the morning and there's this nice
+  voice that reads to you all yo new mail as u brush teeth?!
+ 
+  seemed like at first, but when I encountered some little knowwn APIs and breakthroughs at Google
+  I decided to make this one of my "over-night" hacks
+  and like many of those, I didn't do it perfectly, but it gets the job done a bit:
+  currently:
+ 
+  1. sexxymail will hook into yo IMAP mail server (configurable)
+  2. get you "folders" list, and prompt u to select one
+  3. then will read all new / unread mail to you via a possibly "sexxy" voice (thanks to Google's innovations)
+  4. If not closed, the program will periodically attempt to check for and read any new mail to u
+ 
+  Note : because o bandwidth issues on my box, I decided to only make the tool read out only "From" and "subject" headers,
+ but it should be hard to read the entire mail body should u require such functionality.
+  
+ -- and then one small zib is that for each mail it checks out, the mail's flag "\Seen" is set, so that on the server,
+ that message is marked as read - which might not be a good thing if u intend to later on read the mail in say gmail or some
+ other client, but to compesate for this, i make Sexxy set the "SexxyFeeds" label on this "checkout" mail, so that u can
+ later on read it in one place if so required by navigating to mail under this label.
+
+Licences? This is unlicenced work! Do with it whatever u wish! Just don't involve me please incase u use it to do evil please :-)
+
+But do let me know if it turns out to be useful for anything otherthan amusement, and let me know if there are improvements (definitely)
+that I can make to it.
+
+Lastly : current codebase is .NET in C#, but u could port it to anything else

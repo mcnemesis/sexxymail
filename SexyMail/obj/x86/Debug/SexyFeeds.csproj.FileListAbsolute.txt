@@ -1,0 +1,15 @@
+C:\NemFiles\LABS\FRINGE\SexyMail\SexyMail\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\NemFiles\LABS\FRINGE\SexyMail\SexyMail\obj\x86\Debug\MainWindow.baml
+C:\NemFiles\LABS\FRINGE\SexyMail\SexyMail\obj\x86\Debug\MainWindow.g.cs
+C:\NemFiles\LABS\FRINGE\SexyMail\SexyMail\obj\x86\Debug\App.g.cs
+C:\NemFiles\LABS\FRINGE\SexyMail\SexyMail\obj\x86\Debug\SexyFeeds_MarkupCompile.cache
+C:\NemFiles\LABS\FRINGE\SexyMail\SexyMail\obj\x86\Debug\SexyFeeds.g.resources
+C:\NemFiles\LABS\FRINGE\SexyMail\SexyMail\obj\x86\Debug\SexyFeeds.Properties.Resources.resources
+C:\NemFiles\LABS\FRINGE\SexyMail\SexyMail\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\NemFiles\LABS\FRINGE\SexyMail\SexyMail\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\NemFiles\LABS\FRINGE\SexyMail\SexyMail\bin\Debug\SexyFeeds.exe.config
+C:\NemFiles\LABS\FRINGE\SexyMail\SexyMail\bin\Debug\SexyFeeds.exe
+C:\NemFiles\LABS\FRINGE\SexyMail\SexyMail\bin\Debug\SexyFeeds.pdb
+C:\NemFiles\LABS\FRINGE\SexyMail\SexyMail\obj\x86\Debug\SexyFeeds.exe
+C:\NemFiles\LABS\FRINGE\SexyMail\SexyMail\obj\x86\Debug\SexyFeeds.pdb
+C:\NemFiles\LABS\FRINGE\SexyMail\SexyMail\bin\Debug\ImapX.dll

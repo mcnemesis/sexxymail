@@ -1,0 +1,41 @@
+﻿<Window x:Class="SexyMail.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SexyFeeds" Height="350" Width="525" WindowStartupLocation="CenterScreen" Closed="Window_Closed" Loaded="Window_Loaded" Icon="/SexyFeeds;component/Contact.ico">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF000021" Offset="0" />
+            <GradientStop Color="White" Offset="1" />
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="125*" />
+            <ColumnDefinition Width="378*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="39*" />
+            <RowDefinition Height="39*" />
+            <RowDefinition Height="138*" />
+            <RowDefinition Height="42*" />
+            <RowDefinition Height="53*" />
+        </Grid.RowDefinitions>
+        <ListBox Grid.Column="1" Margin="6" Name="lbxFeed" Foreground="Ivory" BorderBrush="Black" Grid.RowSpan="3">
+            <ListBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="RoyalBlue" Offset="0" />
+                    <GradientStop Color="#DB000000" Offset="1" />
+                </LinearGradientBrush>
+            </ListBox.Background>
+        </ListBox>
+        <Button Content="Rock Me!" Grid.Row="4" Margin="5" Name="btnRock" Click="btnRock_Click" />
+        <TextBox Grid.Column="1" Grid.Row="3" Margin="6" Name="tbxStatus" Background="Black" Foreground="Cyan" TextWrapping="WrapWithOverflow" Grid.RowSpan="2" />
+        <MediaElement Name="mediaElement" Grid.RowSpan="4" />
+        <Button Content="Get Ready..." Margin="5" Name="btnGetReady" Grid.Row="1" Click="btnGetReady_Click" />
+        <ComboBox Margin="5" Name="comboMode" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem Content="Mail" IsSelected="True" />
+            <ComboBoxItem Content="Razor" />
+        </ComboBox>
+        <ComboBox Grid.Row="3" Margin="5" Name="comboPaths" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+    </Grid>
+</Window>
